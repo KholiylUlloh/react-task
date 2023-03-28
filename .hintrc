@@ -1,0 +1,10 @@
+{
+  "extends": [
+    "development"
+  ],
+  "hints": {
+    "manifest-file-extension": "off",
+    "detect-css-reflows/layout": "off",
+    "compat-api/css": "off"
+  }
+}

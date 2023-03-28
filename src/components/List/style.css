@@ -1,0 +1,43 @@
+.column_wrap {
+  border: 1px solid #c9d2ce;
+  border-radius: 4px;
+  min-width: 274px;
+  padding-bottom: 12px;
+  height: fit-content;
+}
+
+.list_wrap {
+  background-color: transparent;
+  overflow-y: scroll;
+  min-height: fit-content;
+  min-height: moz-fit-content;
+  max-height: calc(100vh - 185px);
+  height: fit-content;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.list_header {
+  background: #f2faf6;
+  border-bottom: 1px solid #c9d2ce;
+  border-radius: 3px 3px 0px 0px;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  padding: 11px 0px 12px 9px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  color: #414644;
+}
+
+.list_cards-section {
+  padding: 0px 8px;
+  overflow-y: scroll;
+  height: inherit;
+}
