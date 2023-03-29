@@ -59,7 +59,7 @@ export const data = [
     title: "Текущие",
     cards: [
       {
-        id: 1,
+        id: 5,
         job: "PHP Developer",
         job_type: "Housekeepers",
         status: "В приоритете",
@@ -68,7 +68,7 @@ export const data = [
         define_id: "Текущие",
       },
       {
-        id: 2,
+        id: 6,
         job: "Freshers",
         job_type: "Finance",
         status: "Второстепенная",
@@ -77,7 +77,7 @@ export const data = [
         define_id: "Текущие",
       },
       {
-        id: 3,
+        id: 7,
         job: "UI UX дизайнер",
         job_type: "Management",
         status: "В приоритете",
@@ -86,7 +86,7 @@ export const data = [
         define_id: "Текущие",
       },
       {
-        id: 4,
+        id: 8,
         job: "Joomla Developer",
         job_type: "Accounting",
         status: "В приоритете",
@@ -95,7 +95,7 @@ export const data = [
         define_id: "Текущие",
       },
       {
-        id: 5,
+        id: 9,
         job: "Python Developer",
         job_type: "Laundry",
         status: "В приоритете",
@@ -104,7 +104,7 @@ export const data = [
         define_id: "Текущие",
       },
       {
-        id: 6,
+        id: 10,
         job: "Python Developer",
         job_type: "Laundry",
         status: "В приоритете",
@@ -113,7 +113,7 @@ export const data = [
         define_id: "Текущие",
       },
       {
-        id: 7,
+        id: 11,
         job: "Python Developer",
         job_type: "Laundry",
         status: "В приоритете",
@@ -126,14 +126,24 @@ export const data = [
   {
     id: 3,
     title: "Закрытые",
-    cards: [],
+    cards: [
+      {
+        id: 12,
+        job: "UX Architect",
+        job_type: "Housekeeping management",
+        status: "В приоритете",
+        hr_img: img10,
+        hr_name: "Guy Hawkins",
+        define_id: "Архив",
+      },
+    ],
   },
   {
     id: 4,
     title: "Архив",
     cards: [
       {
-        id: 1,
+        id: 13,
         job: "UX Architect",
         job_type: "Housekeeping management",
         status: "В приоритете",
@@ -142,7 +152,7 @@ export const data = [
         define_id: "Архив",
       },
       {
-        id: 2,
+        id: 14,
         job: "Human Resource",
         job_type: "Operations",
         status: "Срочная заявка",
@@ -151,7 +161,7 @@ export const data = [
         define_id: "Архив",
       },
       {
-        id: 3,
+        id: 15,
         job: "Python Developer",
         job_type: "Restaurant Management",
         status: "Срочная заявка",

@@ -17,3 +17,29 @@ body {
 #icon {
   cursor: pointer;
 }
+
+.dragging {
+  background: rgba(255, 255, 255, 0.25);
+  border: 1px solid #0095f2;
+  box-shadow: 0px 4px 16px rgba(0, 113, 218, 0.4);
+  border-radius: 4px;
+  backdrop-filter: blur(4px) !important;
+  -webkit-filter: blur(2px);
+  cursor: pointer;
+}
+
+.red {
+  background: #FFF2F5;
+  color: #F33B5C;
+}
+
+.blue {
+  background: #f0f9ff;
+  border-radius: 4px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 13px;
+  color: #0095F2;
+  padding: 4px 8px;
+}
